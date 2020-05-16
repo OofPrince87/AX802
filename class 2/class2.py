@@ -34,7 +34,7 @@ class node:
     def __init__(self,value):
         self.value = value
         self.next = None
-        
+'''       
 MyList = linkinglist()
 
 MyList.trace()
@@ -43,7 +43,7 @@ for i in range(101):
     MyList.append(1)
     
 MyList.trace()
-
+'''
 
 Mystack = stack.stack()
 
@@ -51,8 +51,12 @@ Mystack.push(3)
 
 for i in range(4):
     Mystack.push(1)
-    
+'''    
 Mystack.trace()
+'''
+
+for i in range(4):
+    print(Mystack.pop())
         
 '''
 a = node(10)
